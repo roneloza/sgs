@@ -1,0 +1,115 @@
+/* 
+  Localizable.strings
+  sgs
+
+  Created by Rone Loza on 4/21/17.
+  Copyright © 2017 Novit. All rights reserved.
+*/
+
+"lbl_button_ok_next" = "OK, CONTINUAR";
+"lbl_button_ok" = "OK";
+"lbl_button_enter" = "INGRESAR";
+"lbl_button_read_accept" = "HE LEÍDO Y ACEPTO";
+
+"lbl_button_change_region" = "Cambiar Región";
+"lbl_barbutton_close" = "Salir";
+
+"lbl_placeholder_user" = "USUARIO";
+"lbl_placeholder_pass" = "CONTRASEÑA";
+"lbl_placeholder_search" = "buscar";
+
+"lbl_navigation_title_region" = "Seleccionar Región";
+"lbl_navigation_title_terms" = "Términos y Condiciones";
+"lbl_title_offline_toast" = "sin conexión, error de red";
+
+"lbl_button_logout" = "cerrar sesión";
+
+"lbl_segmented_directory" = "directorio";
+"lbl_segmented_general" = "general";
+
+"lbl_segmented_detail" = "detalles";
+"lbl_segmented_attach" = "adjuntos";
+
+"lbl_number_movil" = "Móvil";
+"lbl_number_phone" = "Telf.";
+
+"lbl_image" = "imágenes";
+"lbl_all" = "todos";
+"lbl_various" = "varios";
+
+"lbl_segmeted_all" = "todas";
+"lbl_segmeted_important" = "importantes";
+
+"lbl_download" = "descargar";
+"lbl_display" = "ver";
+"lbl_display_date" = "hace %@ min";
+"lbl_yesterday" = "ayer";
+
+/////////
+
+//Buttons
+"btn_close_label" = "Cerrar";
+"btn_cancel_label" = "Cancelar";
+"btn_accept_label" = "Aceptar";
+"btn_settings_label" = "Ajustes";
+"btn_enable_use_data_label" = "habilitar";
+"btn_download_label" = "descargar";
+"btn_edit_label" = "editar";
+"btn_delete_label" = "borrar";
+"btn_ok_label" = "ok";
+"btn_archive_label" = "Archivar";
+/////////
+
+"msg_notConnectedToInternet" = "No estas conectado a internet.";
+"msg_errorService" = "El servicio no esta disponible o se ha producido un error.";
+"msg_showNumberColumns5" = "Lo sentimos no esta permitido seleccionar más campos";
+"msg_checkLogin" = "Debe ingresar usuario / contraseña.";
+
+"msg_detail_archive_success" = "Detalle archivado correctamente.";
+
+"msg_unable_open_app" = "No se puede abrir aplicacion.";
+"msg_unvailable_wwam" = "La aplicación está deshabilitada para usar los datos móviles.";
+"msg_unvailable_wwam_attach" = "La aplicación está deshabilitada para descargar datos adjuntos.";
+"msg_available_wwam_attach" = "La aplicación está habilitada para descargar datos adjuntos con datos móviles.";
+
+"msg_notData" = "No hay datos en el listado del menu.";
+
+"msg_not_html" = "Este registro no contiene ningún detalle.";
+////TABS
+
+"tab_menu_label" = "Menu";
+"tab_noti_label" = "Notificaciones";
+"tab_offline_label" = "Offline";
+"tab_myprofile_label" = "Mi Perfil";
+"tab_contacts_label" = "Contactos";
+
+"tab_settings_label" = "Configuración";
+"tab_header_by_label" = "ver por";
+"tab_sync_label" = "sinc.";
+
+"title_type_noti_label" = "tipo notificaciones";
+"title_sync_noti_label" = "sinc. notificaciones";
+"title_sync_menu_label" = "sinc. menu";
+"title_lang_available_label" = "idiomas disponibles";
+
+"title_contact_label" = "contacto";
+"title_contactus_label" = "contáctanos";
+"title_offices_label" = "oficinas";
+"title_sgsonline_label" = "sgs online";
+
+//// SETTINGS
+
+"sec_noti_label" = "notificaciones";
+"sec_sync_label" = "sincronización";
+"sec_data_label" = "transferencia de datos";
+"sec_lang_label" = "formato de idioma";
+
+"row_type_label" = "tipo";
+"row_noti_label" = "notificaciones";
+"row_menu_label" = "menu";
+"row_usedata_label" = "uso de datos móviles";
+"row_attach_label" = "archivos adjuntos (sólo wi-fi)";
+"row_lang_label" = "Idioma";
+
+"row_desc_label" = "descripción";
+

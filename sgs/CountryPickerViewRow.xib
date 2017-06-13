@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="UniversLTStd-BlackEx_0.otf">
+            <string>UniversLTStd-BlackEx</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CountryPickerViewRow">
+            <connections>
+                <outlet property="iconImageView" destination="EGx-SH-qAN" id="Gcm-SD-OEr"/>
+                <outlet property="titleLabel" destination="Rjj-To-mc0" id="QhJ-VZ-Jea"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_country_def" translatesAutoresizingMaskIntoConstraints="NO" id="EGx-SH-qAN">
+                    <rect key="frame" x="24" y="10" width="20" height="20"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="LqF-Iz-Phu"/>
+                        <constraint firstAttribute="width" constant="20" id="xTA-pV-JWP"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESPANOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjj-To-mc0">
+                    <rect key="frame" x="62" y="10" width="258" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="3Bh-QP-PLK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="UniversLTStd-BlackEx" family="Univers LT Std" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EGx-SH-qAN" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9BI-PT-zvu"/>
+                <constraint firstAttribute="trailing" secondItem="Rjj-To-mc0" secondAttribute="trailing" id="API-II-PPU"/>
+                <constraint firstItem="Rjj-To-mc0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="62" id="eQx-pK-pd0"/>
+                <constraint firstItem="Rjj-To-mc0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qJa-qQ-tAd"/>
+                <constraint firstItem="Rjj-To-mc0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="31" id="snn-Qj-dzW"/>
+                <constraint firstItem="EGx-SH-qAN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="vl4-lS-Cbx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="35" y="54"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_country_def" width="36" height="36"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>SGS Online</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fb</string>
+		<string>whatsapp</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Habilita acceso a camara.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Habilita acceso a libreria de fotos.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>UNIVERS-_0.TTF</string>
+		<string>UniversLTStd-LightObl.otf</string>
+		<string>UNIVERS.TTF</string>
+		<string>UniversLTStd-LightUltraCn_0.otf</string>
+		<string>UNIVLITE.TTF</string>
+		<string>UniversLTStd-Obl.otf</string>
+		<string>UniversLTStd-BlackExObl_0.otf</string>
+		<string>UniversLTStd-ThinUltraCn_0.otf</string>
+		<string>UniversLTStd-BlackEx_0.otf</string>
+		<string>UniversLTStd-UltraCn_0.otf</string>
+		<string>UniversLTStd-CnObl_0.otf</string>
+		<string>UniversLTStd-XBlackExObl_0.otf</string>
+		<string>UniversLTStd-Cn_0.otf</string>
+		<string>UniversLTStd-XBlackEx_0.otf</string>
+		<string>UniversLTStd-Ex.otf	</string>
+		<string>UniversLTStd-XBlackObl_0.otf</string>
+		<string>UniversLTStd-ExObl.otf</string>
+		<string>UniversLTStd-XBlack_0.otf</string>
+		<string>UniversLTStd-Light.otf</string>
+		<string>UniversLTStd.otf</string>
+		<string>UniversLTStd-LightCn.otf</string>
+		<string>univers-light-normal.ttf</string>
+		<string>UniversLTStd-LightCnObl.otf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Main</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

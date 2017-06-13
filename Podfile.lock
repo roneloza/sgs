@@ -1,0 +1,30 @@
+PODS:
+  - Reachability (3.2)
+  - SVProgressHUD (2.1.2)
+  - SVPullToRefresh (0.4.1)
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - Reachability
+  - SVProgressHUD
+  - SVPullToRefresh (from `https://github.com/samvermette/SVPullToRefresh.git`)
+  - WYPopoverController (~> 0.3.9)
+
+EXTERNAL SOURCES:
+  SVPullToRefresh:
+    :git: https://github.com/samvermette/SVPullToRefresh.git
+
+CHECKOUT OPTIONS:
+  SVPullToRefresh:
+    :commit: a5f9dfee86a27c4e994d7edf93d0768c881d58bb
+    :git: https://github.com/samvermette/SVPullToRefresh.git
+
+SPEC CHECKSUMS:
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+PODFILE CHECKSUM: f44cfddd5a8260639529159ac9fe3b0665e51ee3
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,114 @@
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+"lbl_button_ok_next" = "OK, NEXT";
+"lbl_button_ok" = "OK";
+"lbl_button_enter" = "TO ENTER";
+"lbl_button_read_accept" = "I HAVE READ AND AGREE";
+
+"lbl_button_change_region" = "Change Region";
+"lbl_barbutton_close" = "Close";
+
+"lbl_placeholder_user" = "USER";
+"lbl_placeholder_pass" = "PASSWORD";
+
+"lbl_placeholder_search" = "search";
+
+
+"lbl_navigation_title_region" = "Choose Region";
+"lbl_navigation_title_terms" = "Terms and Conditions";
+"lbl_title_offline_toast" = "no connection, network error";
+
+"lbl_button_logout" = "logout";
+
+"lbl_segmented_directory" = "directory";
+"lbl_segmented_general" = "general";
+
+"lbl_segmented_detail" = "details";
+"lbl_segmented_attach" = "attachments";
+
+"lbl_number_movil" = "Mobile";
+"lbl_number_phone" = "Phone";
+
+"lbl_image" = "images";
+"lbl_all" = "all";
+"lbl_various" = "various";
+
+"lbl_download" = "download";
+"lbl_display" = "show";
+"lbl_display_date" = "%@ min ago";
+"lbl_yesterday" = "yesterday";
+
+"lbl_segmeted_all" = "all";
+"lbl_segmeted_important" = "importants";
+
+/////////
+
+//Buttons
+"btn_close_label" = "Close";
+"btn_cancel_label" = "Cancel";
+"btn_accept_label" = "Accept";
+"btn_settings_label" = "Settings";
+"btn_enable_use_data_label" = "Enable";
+"btn_download_label" = "download";
+"btn_edit_label" = "edit";
+"btn_delete_label" = "delete";
+"btn_ok_label" = "ok";
+"btn_archive_label" = "Archive";
+
+/////////
+
+"msg_notConnectedToInternet" = "You are not connected to the internet.";
+"msg_errorService" = "The service is unavailable or an error has occurred.";
+"msg_showNumberColumns5" = "Sorry it is not allowed to select more fields.";
+"msg_checkLogin" = "You must enter username / password.";
+"msg_detail_archive_success" = "Detail archived correctly.";
+
+"msg_unable_open_app" = "Unable to open application.";
+
+"msg_unvailable_wwam" = "The application is disabled to use the mobile data.";
+"msg_unvailable_wwam_attach" = "The application is disabled to download attachments.";
+"msg_available_wwam_attach" = "The application is enabled to download attachments with mobile data.";
+
+"msg_notData" = "There is no data in the menu listing.";
+
+"msg_not_html" = "This record does not contain any details.";
+
+//// TABS
+
+"tab_menu_label" = "Menu";
+"tab_noti_label" = "Notifications";
+"tab_offline_label" = "Offline";
+"tab_myprofile_label" = "My Profile";
+"tab_contacts_label" = "Contacts";
+
+"tab_settings_label" = "Settings";
+
+"tab_header_by_label" = "show by";
+
+"tab_sync_label" = "synch.";
+
+"title_type_noti_label" = "notifications type";
+"title_sync_noti_label" = "sync notifications";
+"title_sync_menu_label" = "sync menu";
+"title_lang_available_label" = "available languages";
+
+"title_contact_label" = "contact";
+"title_contactus_label" = "contact us";
+"title_offices_label" = "offices";
+"title_sgsonline_label" = "sgs online";
+
+//// SETTINGS
+
+"sec_noti_label" = "notifications";
+"sec_sync_label" = "synchronization";
+"sec_data_label" = "data transfer";
+"sec_lang_label" = "language format";
+
+"row_type_label" = "type";
+"row_noti_label" = "notifications";
+"row_menu_label" = "menu";
+"row_usedata_label" = "use of mobile data";
+"row_attach_label" = "attachments (wi-fi only)";
+"row_lang_label" = "Language";
+"row_desc_label" = "description";
+
